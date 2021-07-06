@@ -1,0 +1,356 @@
+@media (max-width: 576px){
+    .modal-dialog {
+        max-width: 600px !important;
+        margin: 1.75rem auto;
+    }
+    .social-btns {
+        display: flex;
+        flex-wrap: wrap
+    }
+    .social-btns a{
+        width: 100%
+    }
+    .content {
+        display: flex;
+        list-style: none;
+        padding-left: 0px;
+        margin: 0px;
+        width: 100%;
+        justify-content: center;
+        padding: 0;
+        flex-wrap: wrap;
+        font-size: 10px
+    }
+    .all-media .media img{
+        width: 100%
+    }
+    .single-post .carousel-item img{
+        max-height : 12rem;
+    }
+    .single-post .carousel-control-next, .single-post .carousel-control-prev{
+        height: 50px;
+        width: 35px;
+    }
+}
+@media (max-width: 991.98px) {
+    .navbar .btn{
+        font-size: 10px !important;
+    }
+    .navbar input{
+        font-size: 10px !important;
+    }
+    .navbar .dropdown {
+        font-size: 10px !important;
+    }
+    .form-inline .search{
+        height: auto;
+        margin-right: 0!important
+    }
+    .footer-email{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+    }
+    .copyright{
+        text-align: center
+    }
+    .form-inline{
+        flex-wrap: wrap
+    }
+    .top-navbar{
+        margin: 0 !important;
+        margin-right: 0!important;
+        text-align: start;
+    }
+    .user-color{
+        margin-right: 0!important
+    }
+    header .carousel-control-next, header .carousel-control-prev {
+        height: auto;
+        width: 35px;
+        padding: 15px;
+        top: 50%;
+        bottom: auto;
+        transform: translateY(-50%);
+        background: none;
+        background: none;
+        opacity: 1;
+        font-size: 10px;
+    }
+    header .carousel-indicators{
+        display: none
+    }
+    .left-side .dropdown{
+        margin: 0 !important
+    }
+    .all-media .media-body h5{
+        /*text-align: center;*/
+        margin-bottom: 0!important
+    }
+    .all-media .media-body p{
+        /*text-align: center*/
+    }
+    .all-media .media-hr {
+        margin: 0px 10px 10px 12px;
+    }
+    .all-media .media-date{
+        text-align: center
+    }
+
+    .login-img ,.register .login-img,.send-register-code .login-img {
+        right: -25px;
+    }
+
+    .top-alert {
+        color: #fff;
+        background-color: #0E9809;
+        border-color: #0E9809;
+        position: absolute;
+        left: 1.9rem;
+        top: 12.7rem;
+        padding: .5rem 1.25rem;
+        width: 56%;
+        font-size: 0.8rem;
+        z-index: 3;
+    }
+    .new-ads .form-check .k-checkbox-label{
+        margin-right: 0;
+        text-align: start;
+        padding-left: 3rem !important;
+    }
+    .header_icon_social{display: none}
+    .new-ads .form-check .k-checkbox-label {
+        padding-left: 0;
+        justify-content: flex-start;
+    }
+    .site-commission .commission-details:first-of-type,.site-commission .commission-details:last-of-type{
+        padding: 15px
+    }
+    .site-commission .commission-details {
+        padding-bottom: 1.5rem;
+        padding: 15px;
+    }
+    .other-ads{
+        display: none
+    }
+    .single-post .single-l-link{
+        justify-content: center !important
+    }
+    .single-post .single-l-link ul{
+        margin: 0!important
+    }
+    .single-post .carousel-thumbnails .carousel-indicators{
+        display: none
+    }
+    .single-post .carousel-control-next, .single-post .carousel-control-prev{
+        top: 50%;
+    }
+    .back{
+        display: flex;
+        padding: 0 0 1.5rem 0;
+        align-items: center
+    }
+    .back button{
+        background-color: #fff;
+        color: #dc3545;
+        border: none;
+        font-size: 1.5rem;
+        justify-content: flex-end
+    }
+    .back button:hover{
+        background-color: #fff;
+        color: #dc3545;
+    }
+    .w3-container{
+        padding: 0
+    }
+    .chat-remove button {
+        padding: 0.7rem 0.5rem;
+    }
+    .header-chat .img-name{
+        padding: 0;
+        align-items: center
+    }
+    .send-chat .chat-input, .send-chat .chat-button button{
+        margin: 0 !important
+    }
+    .all-media .media-body {
+        text-align: start;
+        margin-top: 0.5rem;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+    }
+    .all-media .detail-btn {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+    .hr-sty{
+        position: absolute;
+        bottom: 17%;
+        padding-left: 0;
+        width: 94%;
+    }
+}
+@media (max-width: 767.98px) {
+    .homeCarousel .carousel-control-next, .homeCarousel .carousel-control-prev {
+    height: 30px;
+    width: 30px;
+    }
+    .homeCarousel .carousel-indicators{
+        display: none
+    }
+    .container-fluid{
+        padding: 0;
+    }
+    .navbar{
+        padding: 0
+    }
+    .p-0-mob{
+        padding: 0 !important;
+    }
+    .add-to-fav i {
+        font-size: 10px !important;
+    }
+    .dropdown{
+        margin: 0.5rem !important;
+        padding: 0;
+    }
+    .sec-list{
+        list-style: none
+    }
+    .top-navbar{
+        margin: 0 !important;
+        margin-right: 0!important
+    }
+    .navs .nav-link{
+        font-size: 10px
+    }
+    .logo{
+        padding: 1rem
+    }
+    .top-alert {
+        color: #fff;
+        background-color: #0E9809;
+        border-color: #0E9809;
+        position: absolute;
+        left: 0rem;
+        top: 17rem;
+        padding: .5rem 1.25rem;
+        width: 100%;
+        font-size: 0.8rem;
+        z-index: 9999999;
+    }
+    .l-r-s{
+        padding-right: 0.5rem;
+        padding-left: 0.5rem
+    }
+    .l-l-s{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem
+    }
+    .footer-links {
+        list-style: none;
+        display: inline-flex;
+        padding: 0;
+        padding-right: 1rem;
+        padding-top: 1.8rem;
+        justify-content: flex-end;
+    }
+    .footer-links li {
+        margin-bottom: 0.5rem
+    }
+    .logo{
+        display: none
+    }
+    .logo-mob{
+        display: flex
+    }
+    .top-navbar-lg{
+        display: none
+    }
+    .top-navbar-mob{
+        display: block;
+    }
+    .social-btns,.our-app{
+        display: none
+    }
+    .d-n{
+        display: none
+    }
+    .d-f{
+        display: flex
+    }
+    .footer-p{
+        margin: 0
+    }
+    .navbar .dropdown {
+        font-size: 10px!important;
+        color: #fff;
+    }
+    .navbar .user {
+        font-size: 1rem;
+        color: #ddd;
+        margin-right: 0rem;
+        margin-left: 1rem
+    }
+    .user-color{
+        justify-content: flex-start
+    }
+    .all-media .media h5{
+        font-size: 0.9rem
+    }
+    .all-media .media p{
+        font-size: 0.7rem
+    }
+    .all-media .media hr{
+        border-top: 1px solid #ddd
+    }
+    .all-media .detail-btn {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+    .m-b-m {
+        margin-bottom: 0;
+        margin-top: 0
+    }
+    .mob-bott{
+        padding: 0;
+    }
+    .mob-bott button{
+        font-size: 7px
+    }
+    .add-to-fav-pc{
+        display: none !important;
+    }
+    .add-to-fav-mob span{
+        padding: 4px
+    }
+    .add-to-fav-mob{
+        display: block;
+        margin: auto
+    }
+    .all-media .media-date i {
+        font-size: 7px;
+        color: #1C1C1C;
+    }
+    .all-media .media-date {
+        font-size: 7px;
+        color: #1C1C1C;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .user-color:hover {
+        color: #fff;
+    }
+    .logo-mob,.top-navbar-mob{
+        display: flex !important
+    }
+    .footer_div{
+        margin: 0 !important;
+    }
+}
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+
+}
