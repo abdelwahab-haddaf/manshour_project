@@ -16,8 +16,6 @@ use Illuminate\Support\Facades\Route;
 
 
 Auth::routes(['verify'=>true]);
-Route::get('password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail');
-Route::get('resetPassword/{id}','Auth\ForgotPasswordController@resetPassword')->name('password.resetPassword');
 
 Route::group([
     'prefix'  => 'auth',
@@ -88,4 +86,6 @@ Route::group([
 });
 
 
-Route::post('/setNewPassword', 'Auth\ForgotPasswordController@setNewPassword')->name('setNewPassword');
+Route::post('setNewPassword', 'Auth\ForgotPasswordController@setNewPassword')->name('setNewPassword');
+Route::get('password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail');
+//Route::get('resetPassword/{id}','ResetPasswordController@resetPassword')->name('password.resetPassword');

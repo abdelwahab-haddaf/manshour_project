@@ -31,19 +31,19 @@
                             <div class="form-group">
                                 <label for="verification_code">{{__('auth.verification_code')}}</label>
                                 <input type="number"
-                                       class="form-control" name="verification_code" id="verification_code" aria-describedby="helpId" placeholder="">
+                                       class="form-control" name="verification_code" id="verification_code" aria-describedby="helpId" placeholder="" required>
                             </div>
 
                             <div class="form-group">
                                 <label for="password">{{__('auth.password')}}</label>
                                 <input type="password"
-                                       class="form-control" name="password" id="password" aria-describedby="helpId" placeholder="">
+                                       class="form-control" name="password" id="password" aria-describedby="helpId" placeholder="" required>
                             </div>
 
                             <div class="form-group">
                                 <label for="password_confirmation">{{__('auth.password_confirmation')}}</label>
                                 <input type="password"
-                                       class="form-control" name="password_confirmation" id="password_confirmation" aria-describedby="helpId" placeholder="">
+                                       class="form-control" name="password_confirmation" id="password_confirmation" aria-describedby="helpId" placeholder="" required>
                             </div>
 
                             <div class="form-group">

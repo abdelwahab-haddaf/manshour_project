@@ -106,17 +106,16 @@ class ForgotPasswordController extends Controller
 
     public function setNewPassword(Request $request){
 
-          $request->validate([
-            'password'=>'required|confirmed|min:6',
-            'password_confirmation'=>'required|min:6',
-            'verification_code'=>'required|numeric'
-            ]);
-
+//          $request->validate([
+//            'password'=>'required|confirmed|min:6',
+//            'password_confirmation'=>'required|min:6',
+//            'verification_code'=>'required|numeric'
+//            ]);
 
         $user = User::find($request->user_id);
         $data = PasswordReset::where('token','=',$request->token)->where('user_id','=',$request->user_id)->first();
-
         if ($request->verification_code == $data->code){
+
             if ($request->password == $request->password_confirmation){
                 $user->update([
                    'password'=>\Illuminate\Support\Facades\Hash::make($request->password),
@@ -128,17 +127,14 @@ class ForgotPasswordController extends Controller
                         return redirect()->route('home');
                     }
                 }
-
             }
             else {
-
-                return back()->with('error',__('auth.password_not_matched'));
-
+                return \view('Web.auth.verifyMobileCode',compact('data'))->with('error',__('auth.password_not_matched'));;
             }
         }
         else {
-//            return 'error';
-            return back()->with('error',__('auth.code_not_correct'));
+            return \view('Web.auth.verifyMobileCode',compact('data'))->with('error',__('auth.code_not_correct'));
+
         }
 
     }
